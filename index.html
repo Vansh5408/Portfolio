@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vansh Jindal | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">VJ<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="nav-btn">Hire Me</a>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Vansh Jindal</h1>
+                <h2 class="hero-title">Full Stack <span class="typed-text" id="typed"></span><span class="cursor">|</span></h2>
+                <p class="hero-description">
+                    Passionate Full Stack Developer who loves building scalable web applications 
+                    and solving complex problems. 300+ LeetCode questions solved and counting.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span>Let's Talk</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="300">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">LeetCode Solved</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="3">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Projects Built</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="9">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Tech Skills</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <div class="image-bg"></div>
+                    <div class="image-placeholder">
+                        <i class="fas fa-code"></i>
+                        <span>VJ</span>
+                    </div>
+                    <div class="floating-badge badge-1">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="floating-badge badge-2">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="floating-badge badge-3">
+                        <i class="fab fa-js"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Get To Know</p>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-image-container">
+                    <div class="about-image">
+                        <img src="https://leetcard.jacoblin.cool/vansh1450?theme=dark&font=Poppins&ext=heatmap" alt="LeetCode Stats" class="about-img" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                        <div class="about-img-placeholder" style="display:none">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <div class="exp-icon"><i class="fas fa-trophy"></i></div>
+                        <div>
+                            <span class="exp-number">300+</span>
+                            <span class="exp-text">Problems Solved</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <div class="about-cards">
+                        <div class="about-card">
+                            <i class="fas fa-code"></i>
+                            <h3>Full Stack Dev</h3>
+                            <p>Building end-to-end web applications with modern technologies</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-brain"></i>
+                            <h3>Problem Solver</h3>
+                            <p>300+ LeetCode questions solved with strong DSA skills</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-rocket"></i>
+                            <h3>Quick Learner</h3>
+                            <p>Always exploring new technologies and frameworks</p>
+                        </div>
+                    </div>
+                    <p class="about-text">
+                        I'm Vansh Jindal, an aspiring Software Engineer with a deep passion for building 
+                        impactful digital solutions. As a Full Stack Developer, I specialize in crafting 
+                        responsive, user-friendly web applications using the MERN stack and beyond.
+                    </p>
+                    <p class="about-text">
+                        With <strong>300+ LeetCode problems</strong> solved, I have developed a strong 
+                        foundation in Data Structures & Algorithms, which empowers me to write efficient, 
+                        optimized, and clean code. I thrive on turning complex problems into elegant solutions 
+                        and am constantly pushing myself to learn and grow in the ever-evolving world of technology.
+                    </p>
+                    <p class="about-text">
+                        My goal is to become a top-tier Software Engineer at a leading tech company, 
+                        building products that make a real difference in people's lives. I believe in 
+                        continuous learning, clean architecture, and collaborative development.
+                    </p>
+                    <a href="#contact" class="btn btn-primary">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">What I Know</p>
+                <h2 class="section-title">My Skills</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-palette"></i> Frontend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="90">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 90%"></div></div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                        </div>
+                        <div class="skill-item" data-skill="80">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <span class="skill-name">React.js</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="80">
+                            <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 80%"></div></div>
+                        </div>
+                        <div class="skill-item" data-skill="78">
+                            <div class="skill-icon"><i class="fas fa-fire"></i></div>
+                            <span class="skill-name">Express.js</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 78%"></div></div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title"><i class="fas fa-terminal"></i> Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item" data-skill="85">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 85%"></div></div>
+                        </div>
+                        <div class="skill-item" data-skill="75">
+                            <div class="skill-icon"><i class="fas fa-copyright"></i></div>
+                            <span class="skill-name">C</span>
+                            <div class="skill-bar"><div class="skill-progress" style="--progress: 75%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">What I've Built</p>
+                <h2 class="section-title">My Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=375&fit=crop" alt="AI Resume Predictor" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                        <h3 class="project-title">AI Resume Predictor</h3>
+                        <p class="project-description">
+                            An intelligent AI-powered application that analyzes resumes and predicts 
+                            job role compatibility using machine learning algorithms and natural language 
+                            processing. Helps recruiters and job seekers make data-driven decisions.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-type"><i class="fas fa-brain"></i> AI / ML</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=375&fit=crop" alt="Amazon Website Clone" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <h3 class="project-title">Amazon Website Clone</h3>
+                        <p class="project-description">
+                            A fully responsive clone of the Amazon e-commerce platform featuring 
+                            product listings, shopping cart functionality, user authentication, and 
+                            a seamless checkout experience replicating the original design.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-type"><i class="fas fa-shopping-cart"></i> E-Commerce</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=600&h=375&fit=crop" alt="Library Management App" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link" title="View Code"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                        <h3 class="project-title">Library Management Education App</h3>
+                        <p class="project-description">
+                            A comprehensive library management system for educational institutions 
+                            with features like book cataloging, student tracking, issue/return management, 
+                            and analytics dashboard for efficient library operations.
+                        </p>
+                        <div class="project-footer">
+                            <span class="project-type"><i class="fas fa-graduation-cap"></i> Education</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <p class="section-subtitle">Get In Touch</p>
+                <h2 class="section-title">Contact Me</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Let's work together!</h3>
+                    <p>I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                    
+                    <div class="contact-cards">
+                        <a href="mailto:vanshjindal1450@gmail.com" class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>vanshjindal1450@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="tel:+917895891450" class="contact-card">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7895891450</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/vansh-jindal-b7705b28b/" target="_blank" class="contact-card">
+                            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>vansh-jindal</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/vansh-jindal-b7705b28b/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="mailto:vanshjindal1450@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder=" " required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder=" " required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder=" " required>
+                        <label for="subject">Subject</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder=" " required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">VJ<span>.</span></a>
+                <p>&copy; 2026 Vansh Jindal. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
